@@ -12,7 +12,8 @@ from sklearn.preprocessing import StandardScaler
 
 
 file1 = 'racing/5.binaryEncodedOutput.csv'
-df = pd.read_csv(file1,sep=',', engine='python',  header=0)
+file2 = "/input/5.binaryEncodedOutput.csv" # this is the data set uploaded to floydhub
+df = pd.read_csv(file2,sep=',', engine='python',  header=0)
 
 target = 'target'
 
